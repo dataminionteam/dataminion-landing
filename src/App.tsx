@@ -1,33 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/header'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Header />
+      <div className='h-[calc(100dvh-5rem)] p-4 bg-aqua box-border'>
+        <div className='bg-white size-full box-border'></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className='h-[calc(100dvh)] p-4 bg-purple box-border'>
+        <div className='bg-white size-full box-border'></div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className='flex flex-wrap gap-1 h-[calc(120dvh)] p-4 box-border'>
+        <div className='rounded-3xl border border-slate w-[calc(35%-0.5rem)] box-border bg-purple text-white text-[3rem] font-bold flex items-center p-8'>Lorem Ipsum</div>
+        <div className='rounded-3xl border border-slate w-[65%] box-border'></div>
+        <div className='rounded-3xl border border-slate w-[65%] box-border'></div>
+        <div className='rounded-3xl border border-slate w-[calc(35%-0.5rem)] box-border bg-purple text-white text-[3rem] font-bold flex items-center p-8'>Lorem Ipsum</div>
+        <div className='rounded-3xl border border-slate w-[calc(35%-0.5rem)] box-border bg-purple text-white text-[3rem] font-bold flex items-center p-8'>Lorem Ipsum</div>
+        <div className='rounded-3xl border border-slate w-[65%] box-border'></div>
+      </div>
+      <div className='flex justify-between p-8 p-4 bg-purple2 box-border'>
+      <div className='w-60 h-60 bg-black'></div>
+      <div className='w-60 h-60 bg-black'></div>
+      <div className='w-60 h-60 bg-black'></div>
+      </div>
+      <div className='h-[calc(100dvh)] p-4 box-border'>
+        <div className='bg-slate rounded-3xl size-full box-border'></div>
+      </div>
+      <div className='h-[calc(100dvh)] p-4 bg-purple box-border'>
+        <div className='w-full h-2/5'>
+          <p>Pricing</p>
+        </div>
+        <div className='flex gap-1 w-full h-3/5 box-border'>
+        <div className='w-1/4 h-full bg-aqua'></div>
+        <div className='w-1/4 h-full bg-aqua'></div>
+        <div className='w-1/4 h-full bg-aqua'></div>
+        <div className='w-1/4 h-full bg-aqua'></div>
+        </div>
+      </div>
     </>
   )
 }
