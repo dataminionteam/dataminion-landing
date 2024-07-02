@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     colors: {
+      grayOverlay: "#22222266",
+      // Imported from main app
       black: "#000000",
       white: "#ffffff",
       gray: "#efeeee",
@@ -20,7 +22,15 @@ export default {
       orange: "#faa919",
       blue: "#1e88e5",
     },
-    extend: {},
+    backgroundImage: {
+      'color-pattern': "url('/background.jpg')",
+    },
+    extend: {
+      fontFamily: {
+        publicSans: ["Public Sans", "sans-serif"],
+        publicSansItalic: ["Public Sans Italic", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
