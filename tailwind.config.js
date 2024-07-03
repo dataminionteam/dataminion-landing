@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      grayOverlay: "#22222266",
+      grayOverlay: "#11111166",
       // Imported from main app
       black: "#000000",
       white: "#ffffff",
