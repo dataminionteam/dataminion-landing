@@ -1,5 +1,6 @@
 import Heading from "./components/heading";
 import Intro from "./components/intro";
+import Models from "./components/models";
 import Navbar from "./components/navbar";
 import Tiles from "./components/tiles";
 
@@ -7,15 +8,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-color-pattern bg-[100vw_auto] font-publicSans">
+      <div className="bg-color-pattern bg-[100vw_auto] bg-no-repeat font-publicSans">
         <Heading />
         <Intro />
         <Tiles />
-        <div className="flex justify-between p-8 p-4 bg-purple2 box-border">
-          <div className="w-60 h-60 bg-black"></div>
-          <div className="w-60 h-60 bg-black"></div>
-          <div className="w-60 h-60 bg-black"></div>
-        </div>
+        <Models />
         <div className="h-[calc(100dvh)] p-4 box-border">
           <div className="bg-slate rounded-3xl size-full box-border"></div>
         </div>
