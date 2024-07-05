@@ -2,6 +2,7 @@ import Heading from "./components/heading";
 import Intro from "./components/intro";
 import Models from "./components/models";
 import Navbar from "./components/navbar";
+import Privacy from "./components/privacy";
 import Tiles from "./components/tiles";
 
 function App() {
@@ -13,9 +14,7 @@ function App() {
         <Intro />
         <Tiles />
         <Models />
-        <div className="h-[calc(100dvh)] p-4 box-border">
-          <div className="bg-slate rounded-3xl size-full box-border"></div>
-        </div>
+        <Privacy />
         <div className="h-[calc(100dvh)] p-4 bg-purple box-border">
           <div className="w-full h-2/5">
             <p>Pricing</p>
