@@ -8,9 +8,7 @@ export default function Models() {
       <div className="flex flex-col justify-center items-center w-1/3 px-8 text-center bg-white rounded-3xl">
         <img src={modelA} className="w-48 object-cover" />
         <p className="text-xl font-extrabold">Upload Entire Textbooks</p>
-        <p className="mt-2">
-          DATAMINION supports file sizes up to 100 MB
-        </p>
+        <p className="mt-2">DATAMINION supports file sizes up to 100 MB</p>
       </div>
       <div className="flex flex-col justify-center items-center w-1/3 px-8 text-center bg-white rounded-3xl">
         <img src={modelB} className="w-48 object-cover" />
