@@ -5,7 +5,7 @@ import chart from "../assets/chart.png";
 
 export default function Privacy() {
   return (
-    <div className="h-[calc(100dvh)] p-4 box-border">
+    <div className="h-screen p-4 box-border">
       <div className="flex flex-col md:flex-row justify-center gap-4 p-[10vw] bg-darkSlate rounded-3xl size-full box-border">
         <div className="flex flex-col justify-start items-start gap-4 w-auto h-1/3 md:h-auto md:w-1/3">
           <img src={lock} className="w-48 object-contain"></img>

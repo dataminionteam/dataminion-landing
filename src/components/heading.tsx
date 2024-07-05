@@ -1,6 +1,6 @@
 export default function Heading() {
   return (
-    <div className="h-[calc(100dvh-6rem)] p-6 box-border">
+    <div className="h-[calc(100vh-6rem)] p-6 box-border">
       <div className="flex flex-col md:flex-row-reverse items-center bg-grayOverlay size-full box-border rounded-3xl">
         <img
           src="/phone.png"

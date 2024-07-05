@@ -3,7 +3,7 @@ import minionbot from "../assets/minionbot.svg";
 
 export default function Intro() {
   return (
-    <div className="h-[calc(100dvh)] p-6 bg-transparent box-border">
+    <div className="h-screen p-6 bg-transparent box-border">
       <div className="flex items-center size-full bg-whiteOverlay rounded-3xl">
         <div className="flex flex-col gap-3 items-center justify-center w-1/2">
           <p className="w-3/5 text-left text-[36px] lg:text-[48px] font-black">
