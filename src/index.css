@@ -5,14 +5,14 @@
 @font-face {
   font-family: "Public Sans";
   font-weight: 100 1000;
-  src: url("../public-sans.ttf");
+  src: url("/public-sans.ttf");
 }
 
 @font-face {
   font-family: "Public Sans Italic";
   font-weight: 100 1000;
   font-style: italic;
-  src: url("../public-sans-italic.ttf");
+  src: url("/public-sans-italic.ttf");
 }
 
 :root {
