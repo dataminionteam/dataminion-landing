@@ -8,7 +8,7 @@ export default function Privacy() {
   return (
     <div className="h-screen p-4 box-border">
       <div className="flex flex-col md:flex-row justify-center gap-8 p-[10vw] bg-darkSlate rounded-3xl size-full box-border">
-        <div className="flex flex-col justify-start items-center gap-4 w-auto h-1/3 md:h-auto md:w-1/3">
+        <div className="flex flex-col justify-start items-start gap-4 w-auto h-1/3 md:h-auto md:w-1/3">
           <img src={animation} className="w-48 object-contain"></img>
           <p className="text-[48px] leading-[54px] text-white font-extrabold">
             Privacy and Security
