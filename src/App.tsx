@@ -1,3 +1,5 @@
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 import Heading from "./components/heading";
 import Intro from "./components/intro";
 import Models from "./components/models";
@@ -17,6 +19,8 @@ function App() {
         <Models />
         <Privacy />
         <Pricing />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

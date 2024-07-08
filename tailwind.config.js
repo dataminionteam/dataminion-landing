@@ -10,6 +10,7 @@ export default {
       whiteOverlay: "#f0f0f0db",
       gray: "#efeeee",
       slate: "#c5c6c8",
+      lightSlate: "#efeeee",
       darkSlate: "#2C2E43",
       purple: "#6e55f4",
       purple2: "#77459A",
