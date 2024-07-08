@@ -1,28 +1,20 @@
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Heading from "./components/heading";
-import Intro from "./components/intro";
-import Models from "./components/models";
+import { HashRouter, Route, Routes } from "react-router-dom";
+
 import Navbar from "./components/navbar";
-import Pricing from "./components/pricing";
-import Privacy from "./components/privacy";
-import Tiles from "./components/tiles";
+import Home from "./home";
+import FAQ from "./faq";
+import TOS from "./tos";
 
 function App() {
   return (
-    <>
+    <HashRouter>
       <Navbar />
-      <div className="bg-color-pattern bg-[100vw_auto] bg-no-repeat font-publicSans">
-        <Heading />
-        <Intro />
-        <Tiles />
-        <Models />
-        <Privacy />
-        <Pricing />
-        <Contact />
-        <Footer />
-      </div>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/tos" element={<TOS />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
