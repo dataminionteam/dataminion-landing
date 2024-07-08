@@ -6,7 +6,7 @@ export default function Heading() {
       <div className="flex flex-col md:flex-row-reverse items-center bg-grayOverlay size-full box-border rounded-3xl">
         <img
           src={phone}
-          className="w-auto h-1/2 md:h-full object-cover relative lg:-left-[5vw]"
+          className="w-auto h-1/2 md:h-full object-cover relative -left-[5vw]"
         />
         <div className="flex flex-col flex-1 justify-around h-full md:py-8 md:pl-16 text-white">
           <p className="text-lg md:text-[5vw] md:leading-[5vw] font-black">
