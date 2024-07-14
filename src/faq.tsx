@@ -40,8 +40,9 @@ export default function FAQ() {
     );
   }
 
-  const tabSelected = "p-2 text-purple font-bold";
-  const tabAvailable = "p-2 hover:text-purple transition-colors tracking-wide";
+  const tabSelected = "md:p-2 text-purple font-bold";
+  const tabAvailable =
+    "md:p-2 hover:text-purple transition-colors tracking-wide";
 
   return (
     <>
@@ -74,7 +75,7 @@ export default function FAQ() {
             />
           )}
         </div>
-        <nav className="flex gap-4 items-end">
+        <nav className="flex flex-col xs:flex-row gap-4 items-start">
           {query ? (
             result ? (
               <p>
@@ -133,7 +134,7 @@ export default function FAQ() {
                   toggleNum={toggleNum}
                   question={e.question}
                   answer={e.answer}
-                  group={0}
+                  group={-1}
                   tab={tab}
                   curr={curr}
                   idx={j}

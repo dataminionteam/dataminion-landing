@@ -30,6 +30,9 @@ export default {
         publicSans: ["Public Sans", "sans-serif"],
         publicSansItalic: ["Public Sans Italic", "sans-serif"],
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],

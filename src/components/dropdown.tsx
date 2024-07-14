@@ -22,16 +22,16 @@ export default function Dropdown({
 }: DropdownProps) {
   return (
     <div
-      className={`${tab === group ? "flex" : "hidden"} flex-1 flex-col py-4 text-lg font-medium border-b border-slate`}
+      className={`${group < 0 || tab === group ? "flex" : "hidden"} flex-1 flex-col py-4 text-lg font-medium border-b border-slate`}
     >
       <div
-        className="flex justify-between p-2 py-4 cursor-pointer"
+        className="flex justify-between py-4 md:px-2 cursor-pointer"
         onClick={() => toggleNum(idx)}
       >
         <p>{question}</p>
         <img src={curr === idx ? arrowUp : arrowDown} />
       </div>
-      {curr === idx && <p className="p-2">{answer}</p>}
+      {curr === idx && <p className="md:px-2 py-2">{answer}</p>}
     </div>
   );
 }
