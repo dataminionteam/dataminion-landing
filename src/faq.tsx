@@ -1,3 +1,10 @@
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+
 export default function FAQ() {
-  return <p>FAQ</p>;
+  return (<>
+    <Navbar route="/faq" />
+    <p>FAQ</p>
+    <Footer route="/faq" />
+  </>);
 }
