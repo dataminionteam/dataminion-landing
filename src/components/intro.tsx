@@ -4,25 +4,25 @@ import minionbot from "../assets/minionbot.svg";
 export default function Intro() {
   return (
     <div className="h-screen p-6 bg-transparent box-border">
-      <div className="flex items-center size-full bg-whiteOverlay rounded-3xl">
-        <div className="flex flex-col gap-3 items-center justify-center w-1/2">
-          <p className="w-3/5 text-left text-[36px] lg:text-[48px] font-black">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 size-full bg-whiteOverlay rounded-3xl">
+        <div className="flex flex-col gap-3 items-center justify-center md:w-1/2">
+          <p className="md:w-3/5 text-center md:text-left text-[36px] lg:text-[48px] font-black">
             Introducing
           </p>
-          <img src={minionbot} className="w-3/5 mb-8" />
-          <div className="flex items-center gap-4 w-3/5 text-left font-black">
+          <img src={minionbot} className="md:w-3/5 mb-8" />
+          <div className="flex items-center gap-4 md:w-3/5 text-center md:text-left font-black">
             <p className="w-8 h-8 flex items-center justify-center text-sm rounded-full bg-purple text-white">
               1
             </p>
             <p>Upload Documents</p>
           </div>
-          <div className="flex items-center gap-4 w-3/5 text-left font-black">
+          <div className="flex items-center gap-4 md:w-3/5 text-center md:text-left font-black">
             <p className="w-8 h-8 flex items-center justify-center text-sm rounded-full bg-purple text-white">
               2
             </p>
             <p>Minion Bot Analyzes</p>
           </div>
-          <div className="flex items-center gap-4 w-3/5 text-left font-black">
+          <div className="flex items-center gap-4 md:w-3/5 text-center md:text-left font-black">
             <p className="w-8 h-8 flex items-center justify-center text-sm rounded-full bg-purple text-white">
               3
             </p>
@@ -35,7 +35,7 @@ export default function Intro() {
           muted
           controls
           loop
-          className="w-1/2 p-4 ml-4 bg-white rounded-3xl"
+          className="w-full sm:w-2/3 md:w-1/2 p-4 bg-white rounded-3xl"
         ></video>
       </div>
     </div>
