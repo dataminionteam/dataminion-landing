@@ -1,0 +1,54 @@
+{
+  "list": [
+    [
+      {
+        "question": "Why does my file take a while to load?",
+        "answer": "Every file you load must be read and processed by the Minionbot. The speed of its availability will depend on the size and complexity of the file."
+      },
+      {
+        "question": "What happens if I run out of allotted questions to the Minionbot?",
+        "answer": "Your monthly maximum allotted questions will reset to Zero on the first of every month. In the event that you exceed your maximum amount of questions within a calendar month you will have the following options: If you are using a Premium account, you will be prompted to upgrade to the Professional account. You may toggle back to the Premium account the following month."
+      },
+      {
+        "question": "What file formats are supported?",
+        "answer": "Currently, PDF and Microsoft Word file formats are supported. DATAMINION engineers will be adding other file formats in the future."
+      },
+      {
+        "question": "My file is too big for the Minionbot. What can I do?",
+        "answer": "The Minionbot may have issues processing files that are densely packed with content.  For example, if a college textbook is not loading properly, save as respective chapters as PDFs and load them individually."
+      },
+      {
+        "question": "When will new features be available?",
+        "answer": "We are constantly developing new features. They will generally be implemented on a monthly basis."
+      },
+      {
+        "question": "How do I delete a file I have uploaded?",
+        "answer": "While viewing in Grid mode: Click on the file. Click on the three dots at the top right of the file. Click remove. While viewing in List mode: Click on the three dots at the right of the file. Click remove."
+      },
+      {
+        "question": "When will new features be available?",
+        "answer": "We are constantly developing new features. They will generally be implemented on a monthly basis. "
+      },
+      {
+        "question": "Can I load more documents after I have uploaded the maximum amount of documents in my tier?",
+        "answer": "Yes. Your maximum document uploads quota has to do with storage space. If you need to load more files, remove older files that you are not using to free up space."
+      },
+      {
+        "question": "Why is there a limited amount of questions per month?",
+        "answer": "The language model has a finite amount of questions allotted per user. We expect this question limit to increase in the future and eventually become irrelevant to humans."
+      }
+    ],
+    [
+      {
+        "question": "Is there a business plan available for my small business/ corporation?",
+        "answer": "The Minionbot is evolving quickly. It will be available as a business plan in the future. In the meantime, we request that you use individual accounts."
+      }
+    ],
+    [
+      {
+        "question": "What is an “Operational Beta”?",
+        "answer": "In the tech world, a Beta is a software that is ready for external testing but has limitations in comparison to the final release. Although our Minionbot can use a little more time in the oven, it is functional. We at DATAMINION have chosen to make the beta version of the Minionbot available to students while it is on its last stages of development. This will allow our small startup company to finish adjusting Minionbot in the real world. All proceeds from the beta go to improving your experience with the Minionbot and feeding our little team of cranky humans."
+      }
+    ]
+  ]
+}

@@ -10,7 +10,7 @@ export default function TOS() {
   return (
     <>
       <Navbar route="/tos" />
-      <div className="flex justify-center">
+      <div className="flex justify-center font-publicSans py-8">
         <div className="flex flex-col gap-6 w-[428px] font-semibold text-lg leading-[26px]">
           <p>DATAMINION End User Agreement</p>
           <p>

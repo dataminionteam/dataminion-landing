@@ -10,14 +10,20 @@ export default function Footer({ route }: { route: string }) {
         {route === "/tos" ? (
           <p className="text-xs sm:text-base">End User Agreement</p>
         ) : (
-          <Link to="/tos" className="text-xs sm:text-base underline">
+          <Link
+            to="/tos"
+            className="text-xs sm:text-base underline hover:text-blue transition-colors"
+          >
             End User Agreement
           </Link>
         )}
         {route === "/faq" ? (
           <p className="text-xs sm:text-base">FAQ</p>
         ) : (
-          <Link to="/faq" className="text-xs sm:text-base underline">
+          <Link
+            to="/faq"
+            className="text-xs sm:text-base underline hover:text-blue transition-colors"
+          >
             FAQ
           </Link>
         )}
