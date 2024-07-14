@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Heading from "./components/heading";
@@ -9,6 +11,10 @@ import Privacy from "./components/privacy";
 import Tiles from "./components/tiles";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "DATAMINION | Drag and drop";
+  }, []);
+
   return (
     <>
       <Navbar route="/" />
